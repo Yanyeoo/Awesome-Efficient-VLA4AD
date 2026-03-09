@@ -89,7 +89,8 @@ Feel free to explore the papers, contribute, and stay updated with the latest tr
 
 | **Title**                                                    |   **Year**    |    **Categories**     |                         **Project**                          |
 | :----------------------------------------------------------- | :-----------: | :-------------------: | :----------------------------------------------------------: |
-| [A Survey on Efficient Vision-Language-Action Models](https://ieeexplore.ieee.org/abstract/document/10614862) |  Arxiv 2025   |      Efficient VLA General       | [Project](A Survey on Efficient Vision-Language-Action Models) |
+| [A Survey on Efficient Vision-Language-Action Models](https://ieeexplore.ieee.org/abstract/document/10614862) |  Arxiv 2025   |      Efficient VLA General       | [Project](https://github.com/YuZhaoshu/Efficient-VLAs-Survey) |
+| [Efficient Vision-Language-Action Models for Embodied Manipulation: A Systematic Survey](https://arxiv.org/pdf/2510.17111) |   Arxiv 2025   |      Efficient VLA General       | [Project](https://github.com/guanweifan/awesome-efficient-vla) |
          
 
 ---
