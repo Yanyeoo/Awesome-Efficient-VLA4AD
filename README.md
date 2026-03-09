@@ -1,5 +1,5 @@
 <h1 align="center">
-  <strong>Empowering Embodied AI for Autonomous Driving: A Systematic Survey of Efficient Vision-Language-Action (VLA) Models TEMPLEVERSION</strong>
+  <strong>Empowering Embodied AI for Autonomous Driving: A Systematic Survey of Efficient Vision-Language-Action (VLA) Models (TEMPLEVERSION)</strong>
 </h1>
 
 <div align="center">
@@ -92,7 +92,27 @@ Feel free to explore the papers, contribute, and stay updated with the latest tr
 | [A Survey on Efficient Vision-Language-Action Models](https://ieeexplore.ieee.org/abstract/document/10614862) |  Arxiv 2025   |      Efficient VLA General       | [Project](https://github.com/YuZhaoshu/Efficient-VLAs-Survey) |
 | [Efficient Vision-Language-Action Models for Embodied Manipulation: A Systematic Survey](https://arxiv.org/pdf/2510.17111) |   Arxiv 2025   |      Efficient VLA General       | [Project](https://github.com/guanweifan/awesome-efficient-vla) |
          
-
+[23] Y. Ma, Z. Song, Y. Zhuang, J. Hao, and I. King, “A survey on
+vision-language-action models for embodied ai,” arXiv preprint
+arXiv:2405.14093, 2024.
+[24] R. Shao, W. Li, L. Zhang, R. Zhang, Z. Liu, R. Chen, and L. Nie,
+“Large vlm-based vision-language-action models for robotic ma
+nipulation: A survey,” arXiv preprint arXiv:2508.13073, 2025.
+[25] T.-Y. Xiang, A.-Q. Jin, X.-H. Zhou, M.-J. Gui, X.-L. Xie, S.-Q. Liu,
+S.-Y. Wang, S.-B. Duan, F.-C. Xie, W.-K. Wang et al., “Parallels
+between vla model post-training and human motor learning:
+Progress, challenges, and trends,” arXiv preprint arXiv:2506.20966,
+2025.
+[26] Y. Zhong, F. Bai, S. Cai, X. Huang, Z. Chen, X. Zhang, Y. Wang,
+S. Guo, T. Guan, K. N. Lui et al., “A survey on vision-language
+action models: An action tokenization perspective,” arXiv preprint
+arXiv:2507.01925, 2025.
+[27] M. U. Din, W. Akram, L. S. Saoud, J. Rosell, and I. Hussain,
+“Vision language action models in robotic manipulation: A sys
+tematic review,” arXiv preprint arXiv:2507.10672, 2025.
+[28] D. Zhang, J. Sun, C. Hu, X. Wu, Z. Yuan, R. Zhou, F. Shen,
+and Q. Zhou, “Pure vision language action (vla) models: A
+comprehensive survey,” arXiv preprint arXiv:2509.19012, 2025.
 ---
 
 ### **📄Research Papers**
