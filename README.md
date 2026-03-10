@@ -1,5 +1,5 @@
 <h1 align="center">
-  <strong>Empowering Embodied AI for Autonomous Driving: A Systematic Survey of Efficient Vision-Language-Action (VLA) Models (TEMPLEVERSION)</strong>
+  <strong>TEMPLEVERSION</strong>
 </h1>
 
 <div align="center">
@@ -85,6 +85,7 @@ Feel free to explore the papers, contribute, and stay updated with the latest tr
 | [Llm4drive: A survey of large language models for autonomous driving](https://arxiv.org/abs/2311.01043) |  Arxiv 2023   | Large Language Models |  [Project](https://github.com/Thinklab-SJTU/Awesome-LLM4AD)  |
 | [V2X cooperative perception for autonomous driving: Recent advances and challenges](https://arxiv.org/abs/2310.03525) |  Arxiv 2023   |       Datasets        |                                                              |
 | [Learning-based 3D Reconstruction in Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2503.14537) |  Arxiv 2025   |       Datasets        |                                                              |
+|A review on reinforcement learning-based highway autonomous  vehicle control|Machine Learning for Autonomous Vehicle’s  Trajectory Prediction: A comprehensive survey,  Challenges, and Future Research Directions|
 #### **Efficient VLA**
 
 | **Title**                                                    |   **Year**    |    **Categories**     |                         **Project**                          |
@@ -114,7 +115,10 @@ tematic review,” arXiv preprint arXiv:2507.10672, 2025.
 and Q. Zhou, “Pure vision language action (vla) models: A
 comprehensive survey,” arXiv preprint arXiv:2509.19012, 2025.
 ---
-
+#### **Efficient LLM/VLN**
+A Review on Edge Large Language Models: Design, Execution, and Application  https://arxiv.org/abs/2410.11845
+On-Device Language Models: A Comprehensive Review
+A Survey on Efficient Inference for Large Language Models
 ### **📄Research Papers**
 
 ### **Data Layer**
