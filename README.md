@@ -1,150 +1,47 @@
 diff --git a/README.md b/README.md
-index 806ccc29b20c0e32277cd8a745a8fc454aa8f1ee..c7d89607454179f73cd53d0ee99fba64d5b3e952 100644
+index c7d89607454179f73cd53d0ee99fba64d5b3e952..325ccfe1a0bbe50176af61d029109eb88a6a73ca 100644
 --- a/README.md
 +++ b/README.md
-@@ -17,130 +17,136 @@ In particular, we focus on the **Data-Strategy-Platform** framework for E2E-AD s
+@@ -103,50 +103,65 @@ Feel free to explore the papers, contribute, and stay updated with the latest tr
+ | [DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification](https://proceedings.neurips.cc/paper/2021/file/747d3443e319a22747fbb873e8b2f9f2-Paper.pdf) | NeurIPS 2021 | Token Pruning (Vision) | Paper |
+ | [Zero-Shot Token Pruning through Leveraging of the Attention Graph in Pre-Trained Transformers](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Zero-Shot_Token_Pruning_through_Leveraging_of_the_Attention_Graph_CVPR_2024_paper.pdf) | CVPR 2024 | Training-free Token Pruning | Paper |
+ | [ATP-LLaVA: Adaptive Token Pruning for Large Vision Language Models](https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_ATP-LLaVA_Adaptive_Token_Pruning_for_Large_Vision_Language_Models_CVPR_2025_paper.pdf) | CVPR 2025 | LVLM Adaptive Pruning | Paper |
+ | [LVPruning: Language-Guided Vision Token Pruning](https://aclanthology.org/2025.findings-naacl.242.pdf) | Findings of NAACL 2025 | Language-guided Pruning | Paper |
+ | [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | arXiv 2024 | VLA Survey (General) | Paper |
+ | [A Survey on Vision-Language-Action Models: An Action Tokenization Perspective](https://arxiv.org/abs/2507.01925) | arXiv 2025 | VLA Survey (General) | Paper |
+ | [Efficient Vision-Language-Action Models for Embodied Manipulation: A Systematic Survey](https://arxiv.org/abs/2510.17111) | arXiv 2025 | Efficient VLA Survey (General) | [Project](https://github.com/guanweifan/awesome-efficient-vla) |
  
- - **Data Layer**: Addressing data collection, coverage, and governance practices.
- - **Strategy Layer**: Exploring imitation learning, reinforcement learning, and generative approaches.
- - **Platform Layer**: Understanding scalable training infrastructures and cloud-edge collaborations.
+ ##### Autonomous-Driving-Specific Efficient VLA / VLM
  
- Each paper in this repository has been selected for its relevance and contribution to the field, and we hope it serves as a valuable resource for anyone working in or learning about autonomous driving technology.
+ | **Title** | **Venue/Year** | **Category** | **Link / Project** |
+ | :--- | :---: | :--- | :--- |
+ | [CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving](https://openaccess.thecvf.com/content/WACV2025/papers/Arai_CoVLA_Comprehensive_Vision-Language-Action_Dataset_for_Autonomous_Driving_WACV_2025_paper.pdf) | WACV 2025 | AD VLA Dataset/Benchmark | [Project](https://turingmotors.github.io/covla-ad/) |
+ | [FastDriveVLA: Efficient End-to-End Driving via Plug-and-Play Reconstruction-based Token Pruning](https://arxiv.org/abs/2507.23318) | arXiv 2025 | AD-specific Token Pruning | Paper |
+ | [The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning (LightVLA)](https://arxiv.org/abs/2509.12594) | arXiv 2025 | AD-specific Differentiable Pruning | Paper |
+ | [LatentVLA: Efficient Vision-Language Models for Autonomous Driving via Latent Action Prediction](https://arxiv.org/abs/2601.05611) | arXiv 2026 | AD-efficient VLA | Paper |
+ | [FROST-Drive: Scalable and Efficient End-to-End Driving with a Frozen Vision Encoder](https://arxiv.org/abs/2601.03460) | arXiv 2026 | AD-efficient Backbone/Training | Paper |
+ | [A Vision-Language-Action Model with Visual Prompt for OFF-Road Autonomous Driving (OFF-EMMA)](https://arxiv.org/abs/2601.03519) | arXiv 2026 | AD-specific VLA Efficiency | Paper |
  
- ---
+ ##### Efficient LLM/VLM Systems (General, optional reference)
  
- #### Contributions are welcome! Please feel free to submit pull requests or reach out via email to add papers!
+ | **Title** | **Year** | **Category** | **Link** |
+ | :--- | :---: | :--- | :--- |
+ | [A Review on Edge Large Language Models: Design, Execution, and Application](https://arxiv.org/abs/2410.11845) | 2024 | Edge LLM Systems | Paper |
  
- Feel free to explore the papers, contribute, and stay updated with the latest trends in this exciting and rapidly advancing field! If you find this repository useful, please consider citing and STARing this list ⭐. Feel free to share this list with others!
- 
- ---
- 
- 
- 
- ## 📌 Framework
- 
- <div align="center">
- <img src="./assets/Fig_framework.png" width="100%" alt="Framework Overview">
- </div>
- 
- 
- 
++### **📰 Recent Top-Journal Papers (Last 3 Years, AD/Efficient-VLA Related)**
 +
-+## 🧪 Experimental Playbook
-+
-+- [Scene-Adaptive Hierarchical RL Pruning Plan (Autonomous-Driving VLA)](docs/scene_adaptive_hierarchical_rl_experiment_plan.md)
-+
-+---
-+
- ## Table of Contents
- 
- - [Survey paper](#survey-paper)
- - [Research Papers](#research-papers) 
-   - [Data Layer](#data-layer)
-     - [Sources and Scenario Coverage](#Sources-and-Scenario-Coverage)
-     - [Supervision and Alignment of Labels](#Supervision-and-Alignment-of-Labels)
-     - [Data Valuation and Governance](#Data-Valuation-and-Governance)
-   - [Strategy Layer](#strategy-layer)
-     - [Imitation Learning](#Imitation-Learning)
-     - [Reinforcement Learning](#Reinforcement-Learning)
-     - [Diffusion Policy](#Diffusion-Policy)
-     - [Multimodal Large Language Model](#Multimodal-Large-Language-Model)
-     - [World Model](#World-Model)
-   - [Platform Layer](#platform-layer)
-     - [Distributed and Parallel Training Platform](#Distributed-and-Parallel-Training-Platform)
-     - [Testing and Evaluation Platform](#Testing-and-Evaluation-Platform)
- - [Datasets & Benchmarks](#Datasets-&-Benchmarks)
- - [Other Awesome Lists](#Other-Awesome-Lists)
- - [Citation](#Citation)
- 
- 
- 
- ---
- 
- ### **📚Survey Papers**
- #### **AD**
- 
- | **Title**                                                    |   **Year**    |    **Categories**     |                         **Project**                          |
- | :----------------------------------------------------------- | :-----------: | :-------------------: | :----------------------------------------------------------: |
- | [End-to-end Autonomous Driving: Challenges and Frontiers](https://ieeexplore.ieee.org/abstract/document/10614862) |  TPAMI 2025   |      End to End       | [Project](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) |
- | [A Survey of World Models for Autonomous Driving](https://arxiv.org/abs/2501.11260) |  Arxiv 2025   |      World Model      | [Project](https://github.com/FengZicai/AwesomeWMAD) / [Benchmark](https://github.com/FengZicai/WMAD-Benchmarks) |
- | [Generative AI for Autonomous Driving: Frontiers and Opportunities](https://arxiv.org/abs/2505.08854) |  Arxiv 2025   |     Generative AI     |      [Project](https://github.com/taco-group/GenAI4AD)       |
- | [World models for autonomous driving: An initial survey](https://ieeexplore.ieee.org/abstract/document/10522953/) |   TIV 2024    |      World Model      |                                                              |
- | [Synthetic datasets for autonomous driving: A survey](https://ieeexplore.ieee.org/abstract/document/10313052/) |   TIV 2023    |       Datasets        |                                                              |
- | [Explainable AI for safe and trustworthy autonomous driving: A systematic review](https://ieeexplore.ieee.org/abstract/document/10716567/) |   TITS 2024   |          XAI          |                                                              |
- | [On the Prospects of Incorporating Large Language Models (LLMs) in Automated Planning and Scheduling](https://ojs.aaai.org/index.php/ICAPS/article/view/31503) |  ICAPS 2024   | Large Language Models |  [Project](https://ai4society.github.io/LLM-Planning-Viz/)   |
- | [Prospective role of foundation models in advancing autonomous vehicles](https://spj.science.org/doi/full/10.34133/research.0399) | Research 2024 |   Foundation Models   |                                                              |
- | [Large models for intelligent transportation systems and autonomous vehicles: A survey](https://www.sciencedirect.com/science/article/pii/S1474034624004348) |   AEI 2024    |   Foundation Models   |                                                              |
- | [Vision language models in autonomous driving: A survey and outlook](https://ieeexplore.ieee.org/abstract/document/10531702/) |    IV 2024    |   Foundation Models   |   [Project](https://github.com/ge25nab/Awesome-VLM-AD-ITS)   |
- | [A Survey on Multimodal Large Language Models for Autonomous Driving](https://openaccess.thecvf.com/content/WACV2024W/LLVM-AD/html/Cui_A_Survey_on_Multimodal_Large_Language_Models_for_Autonomous_Driving_WACVW_2024_paper.html) |   WACV 2024   |   Foundation Models   |                                                              |
- | [A survey for foundation models in autonomous driving](https://arxiv.org/abs/2402.01105) |  Arxiv 2024   |   Foundation Models   |                                                              |
- | [Forging Vision Foundation Models for Autonomous Driving: Challenges, Methodologies, and Opportunities](https://arxiv.org/abs/2401.08045) |  Arxiv 2024   |   Foundation Models   |                                                              |
- | [Llm4drive: A survey of large language models for autonomous driving](https://arxiv.org/abs/2311.01043) |  Arxiv 2023   | Large Language Models |  [Project](https://github.com/Thinklab-SJTU/Awesome-LLM4AD)  |
- | [V2X cooperative perception for autonomous driving: Recent advances and challenges](https://arxiv.org/abs/2310.03525) |  Arxiv 2023   |       Datasets        |                                                              |
- | [Learning-based 3D Reconstruction in Autonomous Driving: A Comprehensive Survey](https://arxiv.org/abs/2503.14537) |  Arxiv 2025   |       Datasets        |                                                              |
--|A review on reinforcement learning-based highway autonomous  vehicle control|Machine Learning for Autonomous Vehicle’s  Trajectory Prediction: A comprehensive survey,  Challenges, and Future Research Directions|
- #### **Efficient VLA**
- 
--| **Title**                                                    |   **Year**    |    **Categories**     |                         **Project**                          |
--| :----------------------------------------------------------- | :-----------: | :-------------------: | :----------------------------------------------------------: |
--| [A Survey on Efficient Vision-Language-Action Models](https://ieeexplore.ieee.org/abstract/document/10614862) |  Arxiv 2025   |      Efficient VLA General       | [Project](https://github.com/YuZhaoshu/Efficient-VLAs-Survey) |
--| [Efficient Vision-Language-Action Models for Embodied Manipulation: A Systematic Survey](https://arxiv.org/pdf/2510.17111) |   Arxiv 2025   |      Efficient VLA General       | [Project](https://github.com/guanweifan/awesome-efficient-vla) |
--         
--[23] Y. Ma, Z. Song, Y. Zhuang, J. Hao, and I. King, “A survey on
--vision-language-action models for embodied ai,” arXiv preprint
--arXiv:2405.14093, 2024.
--[24] R. Shao, W. Li, L. Zhang, R. Zhang, Z. Liu, R. Chen, and L. Nie,
--“Large vlm-based vision-language-action models for robotic ma
--nipulation: A survey,” arXiv preprint arXiv:2508.13073, 2025.
--[25] T.-Y. Xiang, A.-Q. Jin, X.-H. Zhou, M.-J. Gui, X.-L. Xie, S.-Q. Liu,
--S.-Y. Wang, S.-B. Duan, F.-C. Xie, W.-K. Wang et al., “Parallels
--between vla model post-training and human motor learning:
--Progress, challenges, and trends,” arXiv preprint arXiv:2506.20966,
--2025.
--[26] Y. Zhong, F. Bai, S. Cai, X. Huang, Z. Chen, X. Zhang, Y. Wang,
--S. Guo, T. Guan, K. N. Lui et al., “A survey on vision-language
--action models: An action tokenization perspective,” arXiv preprint
--arXiv:2507.01925, 2025.
--[27] M. U. Din, W. Akram, L. S. Saoud, J. Rosell, and I. Hussain,
--“Vision language action models in robotic manipulation: A sys
--tematic review,” arXiv preprint arXiv:2507.10672, 2025.
--[28] D. Zhang, J. Sun, C. Hu, X. Wu, Z. Yuan, R. Zhou, F. Shen,
--and Q. Zhou, “Pure vision language action (vla) models: A
--comprehensive survey,” arXiv preprint arXiv:2509.19012, 2025.
-----
--#### **Efficient LLM/VLN**
--A Review on Edge Large Language Models: Design, Execution, and Application  https://arxiv.org/abs/2410.11845
--On-Device Language Models: A Comprehensive Review
--A Survey on Efficient Inference for Large Language Models
-+> ✅ Curated for **EFFICIENT VLA4AD**. Split into **General-Purpose** vs **AD-Specific** works.
-+
-+##### General-Purpose Efficient VLM/VLA (Non-AD)
-+
-+| **Title** | **Venue/Year** | **Category** | **Link / Project** |
++| **Title** | **Journal / Year** | **Direction** | **Link** |
 +| :--- | :---: | :--- | :--- |
-+| [DynamicViT: Efficient Vision Transformers with Dynamic Token Sparsification](https://proceedings.neurips.cc/paper/2021/file/747d3443e319a22747fbb873e8b2f9f2-Paper.pdf) | NeurIPS 2021 | Token Pruning (Vision) | Paper |
-+| [Zero-Shot Token Pruning through Leveraging of the Attention Graph in Pre-Trained Transformers](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Zero-Shot_Token_Pruning_through_Leveraging_of_the_Attention_Graph_CVPR_2024_paper.pdf) | CVPR 2024 | Training-free Token Pruning | Paper |
-+| [ATP-LLaVA: Adaptive Token Pruning for Large Vision Language Models](https://openaccess.thecvf.com/content/CVPR2025/papers/Ye_ATP-LLaVA_Adaptive_Token_Pruning_for_Large_Vision_Language_Models_CVPR_2025_paper.pdf) | CVPR 2025 | LVLM Adaptive Pruning | Paper |
-+| [LVPruning: Language-Guided Vision Token Pruning](https://aclanthology.org/2025.findings-naacl.242.pdf) | Findings of NAACL 2025 | Language-guided Pruning | Paper |
-+| [A Survey on Vision-Language-Action Models for Embodied AI](https://arxiv.org/abs/2405.14093) | arXiv 2024 | VLA Survey (General) | Paper |
-+| [A Survey on Vision-Language-Action Models: An Action Tokenization Perspective](https://arxiv.org/abs/2507.01925) | arXiv 2025 | VLA Survey (General) | Paper |
-+| [Efficient Vision-Language-Action Models for Embodied Manipulation: A Systematic Survey](https://arxiv.org/abs/2510.17111) | arXiv 2025 | Efficient VLA Survey (General) | [Project](https://github.com/guanweifan/awesome-efficient-vla) |
-+
-+##### Autonomous-Driving-Specific Efficient VLA / VLM
-+
-+| **Title** | **Venue/Year** | **Category** | **Link / Project** |
-+| :--- | :---: | :--- | :--- |
-+| [CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving](https://openaccess.thecvf.com/content/WACV2025/papers/Arai_CoVLA_Comprehensive_Vision-Language-Action_Dataset_for_Autonomous_Driving_WACV_2025_paper.pdf) | WACV 2025 | AD VLA Dataset/Benchmark | [Project](https://turingmotors.github.io/covla-ad/) |
-+| [FastDriveVLA: Efficient End-to-End Driving via Plug-and-Play Reconstruction-based Token Pruning](https://arxiv.org/abs/2507.23318) | arXiv 2025 | AD-specific Token Pruning | Paper |
-+| [The Better You Learn, The Smarter You Prune: Towards Efficient Vision-language-action Models via Differentiable Token Pruning (LightVLA)](https://arxiv.org/abs/2509.12594) | arXiv 2025 | AD-specific Differentiable Pruning | Paper |
-+| [LatentVLA: Efficient Vision-Language Models for Autonomous Driving via Latent Action Prediction](https://arxiv.org/abs/2601.05611) | arXiv 2026 | AD-efficient VLA | Paper |
-+| [FROST-Drive: Scalable and Efficient End-to-End Driving with a Frozen Vision Encoder](https://arxiv.org/abs/2601.03460) | arXiv 2026 | AD-efficient Backbone/Training | Paper |
-+| [A Vision-Language-Action Model with Visual Prompt for OFF-Road Autonomous Driving (OFF-EMMA)](https://arxiv.org/abs/2601.03519) | arXiv 2026 | AD-specific VLA Efficiency | Paper |
-+
-+##### Efficient LLM/VLM Systems (General, optional reference)
-+
-+| **Title** | **Year** | **Category** | **Link** |
-+| :--- | :---: | :--- | :--- |
-+| [A Review on Edge Large Language Models: Design, Execution, and Application](https://arxiv.org/abs/2410.11845) | 2024 | Edge LLM Systems | Paper |
++| [End-to-end Autonomous Driving: Challenges and Frontiers](https://ieeexplore.ieee.org/abstract/document/10614862) | TPAMI 2025 | E2E AD Survey | Paper |
++| [World models for autonomous driving: An initial survey](https://ieeexplore.ieee.org/abstract/document/10522953/) | TIV 2024 | World Model Survey | Paper |
++| [Explainable AI for safe and trustworthy autonomous driving: A systematic review](https://ieeexplore.ieee.org/abstract/document/10716567/) | TITS 2024 | Safety / Explainability | Paper |
++| [Large models for intelligent transportation systems and autonomous vehicles: A survey](https://www.sciencedirect.com/science/article/pii/S1474034624004348) | AEI 2024 | Foundation Models for ITS/AD | Paper |
++| [S-nerf++: Autonomous driving simulation via neural reconstruction and generation](https://ieeexplore.ieee.org/abstract/document/10891659/) | TPAMI 2025 | Simulation / Data Engine | Paper |
++| [Openannotate2: Multi-modal auto-annotating for autonomous driving](https://ieeexplore.ieee.org/abstract/document/10480248/) | TIV 2024 | Data Annotation / Labeling | Paper |
++| [An automated driving systems data acquisition and analytics platform](https://www.sciencedirect.com/science/article/pii/S0968090X23001092) | TRC 2023 | Data Platform | Paper |
++| [A study on the driving performance analysis for autonomous vehicles through the real-road field operational test platform](https://link.springer.com/article/10.1007/s12541-024-00978-w) | IJPEM 2024 | Testing / Evaluation | Paper |
++| [Autonomous driving test system under hybrid reality: The role of digital twin technology](https://www.sciencedirect.com/science/article/pii/S2542660524002427) | Internet of Things 2024 | Evaluation Platform | Paper |
++| [On the real-world adversarial robustness of real-time semantic segmentation models for autonomous driving](https://ieeexplore.ieee.org/abstract/document/10268597/) | TNNLS 2023 | Robustness / Safety | Paper |
 +
  ### **📄Research Papers**
  
