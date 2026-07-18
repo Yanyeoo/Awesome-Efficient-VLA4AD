@@ -1,17 +1,27 @@
-# 🚀 EfficientVLA4AD: A Complete Paper Database
+# 🚀 EfficientVLA4AD:
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Updated: 2026-04-29](https://img.shields.io/badge/Updated-2026--04--29-orange.svg)]()
 
-> A comprehensive paper database and curated list for **Efficient Vision-Language-Action (VLA) Models in Autonomous Driving**.
+<p align="center">
+  <b>Empowering Embodied AI for Autonomous Driving: A Systematic Survey of Efficient VLA Models</b>
+</p>
 
-**数据收集时间**: 2026-04-29  
-**覆盖时间范围**: 2015-2026  
-**数据源**: arXiv, IEEE Xplore, ACM Digital Library, OpenReview, GitHub  
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/arXiv-Coming%20Soon-b31b1b.svg" alt="arXiv"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Target-IEEE%20T--ITS-blue.svg" alt="IEEE T-ITS"></a>
+  <img src="https://img.shields.io/badge/Papers-138-green.svg" alt="Papers">
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg" alt="PRs Welcome">
+</p>
+
+<p align="center">
+  A curated, systematically organized reading list accompanying our survey on <b>efficient Vision-Language-Action (VLA) models for autonomous driving (VLA-AD)</b>.
+  If you find this repository useful, please consider giving it a ⭐ and citing our paper.
+</p>
 
 ---
+## 📖 About This Survey
+
+End-to-end autonomous driving is rapidly converging with Vision-Language-Action (VLA) models, but real-time, safety-critical deployment exposes a fundamental **triple constraint**: models must be simultaneously **efficient**, **safe**, and **deployable**. This survey systematically reviews **138 papers** spanning architecture design, training, inference, and deployment, organizing the fast-growing VLA-AD literature into a coherent efficiency taxonomy — and is, to our knowledge, the first survey in this space to adopt a **PRISMA-style systematic review methodology**.
+
 
 ## 📑 目录 (Table of Contents)
 - [🔍 使用说明](#-使用说明)
