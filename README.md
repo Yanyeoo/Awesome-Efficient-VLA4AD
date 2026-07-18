@@ -21,6 +21,7 @@
 ## 📖 About This Survey
 
 End-to-end autonomous driving is rapidly converging with Vision-Language-Action (VLA) models, but real-time, safety-critical deployment exposes a fundamental **triple constraint**: models must be simultaneously **efficient**, **safe**, and **deployable**. This survey systematically reviews **138 papers** spanning architecture design, training, inference, and deployment, organizing the fast-growing VLA-AD literature into a coherent efficiency taxonomy — and is, to our knowledge, the first survey in this space to adopt a **PRISMA-style systematic review methodology**.
+![structure](figure001.png)
 
 
 ## 📑 目录 (Table of Contents)
